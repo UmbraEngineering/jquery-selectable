@@ -22,7 +22,7 @@
 		},
 		unselectable: {
 			userSelect: 'none',
-			onselectstart: function() { return false },
+			onselectstart: function() { return false; },
 			unselectable: 'on'
 		}
 	};
@@ -39,7 +39,7 @@
 			$(this).attr('unselectable', values.unselectable)
 				.css({
 					'-moz-user-select':     values.userSelect,
-					'-khtml-user-select':   values.userSelect
+					'-khtml-user-select':   values.userSelect,
 					'-webkit-user-select':  values.userSelect,
 					'user-select':          values.userSelect,
 					'-ms-user-select':      values.userSelect
